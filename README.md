@@ -4,4 +4,6 @@ HackerRank exercises
 Run tests
 ---
 
-`python -m unittest discover -v`
+```sh
+python -m unittest discover -v
+```
