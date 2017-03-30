@@ -39,7 +39,7 @@ def min_diff_v2(N, K, lists):
     return min(map(lambda i: lists[(i + K - 1)] - lists[i], xrange(N - K + 1)))
 
 
-min_diff = min_diff_v1
+min_diff = min_diff_v2
 
 
 if __name__ == '__main__':
